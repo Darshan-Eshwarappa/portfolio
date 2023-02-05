@@ -1,15 +1,15 @@
-import Work1 from "../../assets/equation.jpg"
-import Work2 from "../../assets/work4.jpg"
+import Work1 from "../../assets/ivy.png"
+import Work2 from "../../assets/restaurant.png"
 import Work3 from "../../assets/equation.jpg"
 import Work4 from "../../assets/work4.jpg"
-import Work5 from "../../assets/work5.jpg"
+import Work5 from "../../assets/pot.jpg"
 
 export const projectsData = [
     {
       id: 1,
       image: Work1,
       title: "Ivy",
-      category: "Machine Learning",
+      category: "ML",
       url: "https://github.com/unifyai/ivy"
     },
     {
@@ -23,7 +23,7 @@ export const projectsData = [
       id: 3,
       image: Work3,
       title: "Quantum Circuit Simulator",
-      category: "Machine Learning",
+      category: "ML",
       url: "https://github.com/Darshan-H-E/quantum-circuit-simulator"
     },
     {
@@ -37,7 +37,7 @@ export const projectsData = [
       id: 5,
       image: Work5,
       title: "PCI Analysis with Tensorflow",
-      category: "Machine Learning",
+      category: "ML",
       url: "https://github.com/Darshan-H-E/PCI-Analysis-using-Tensorflow"
     },
 ];
@@ -47,7 +47,7 @@ export const projectsNav = [
         name: 'all'
     },
     {
-        name: 'Machine Learning'
+        name: 'ML'
     },
     {
         name: 'Data Science'

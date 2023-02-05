@@ -22,7 +22,7 @@ const Contact = () => {
                         <i className="bx bxl-whatsapp contact__card-icon"></i>
 
                         <h3 className="contact__card-title">Whatsapp</h3>
-                        <span className="contact__card-data">+91 9591926044</span>
+                        <span className="contact__card-data"></span>
 
                         <a href="https://api.whatsapp.com/send?phone=9591926044&text=Hello, more information!" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
@@ -31,7 +31,7 @@ const Contact = () => {
                         <i className="bx bxl-telegram contact__card-icon"></i>
 
                         <h3 className="contact__card-title">Telegram</h3>
-                        <span className="contact__card-data">+91 9591926044</span>
+                        <span className="contact__card-data"></span>
 
                         {/* TODO: Add link to telegram */}
                         <a href="" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>

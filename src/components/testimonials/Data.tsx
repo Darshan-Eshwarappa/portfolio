@@ -1,6 +1,6 @@
 import Image1 from "../../assets/daniel.jpg";
-import Image2 from "../../assets/testimonial2.png";
-import Image3 from "../../assets/testimonial3.png";
+import Image2 from "../../assets/simeone.jpeg";
+import Image3 from "../../assets/testimonial2.png";
 
 export const Data = [
   {
@@ -13,15 +13,15 @@ export const Data = [
   {
     id: 2,
     image: Image2,
-    title: "Allie Sheffield",
+    title: "Simeone Gordon",
     description:
-      "Darshan has been an instrumental enginner in the core projects at Longevity Intime. His performance is consistent and on-time",
+      "An illustrious developer with keen eye on product development and quality of the product",
   },
   {
     id: 3,
     image: Image3,
-    title: "Sreenivasulu M",
+    title: "Allie Sheffield",
     description:
-      "An illustrious developer with keen eye on product development and quality of the product",
+      "Darshan has been an instrumental enginner in the core projects at Longevity Intime. His performance is consistent and on-time",
   },
 ];

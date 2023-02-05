@@ -13,11 +13,11 @@ const Qualification = () => {
         <div className="qualification__container container">
             <div className="qualification__tabs">
                 <div className={toggleState === 1 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"} onClick={() => toggleTab(1)}>
-                    <i className="uil uil-graduation-cap qualification__icon"></i>Experience
+                    <i className="uil uil-briefcase-alt qualification__icon"></i>Experience
                 </div>
 
                 <div className={toggleState === 2 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"} onClick={() => toggleTab(2)}>
-                    <i className="uil uil-briefcase-alt qualification__icon"></i>Education
+                    <i className="uil uil-graduation-cap qualification__icon"></i>Education
                 </div>
             </div>
             <div className="qualification__sections">
@@ -27,7 +27,7 @@ const Qualification = () => {
                         <h3 className="qualification__title">Data Scientist</h3>
                         <span className="qualification__subtitle">Longevity Intime - Delaware, U.S</span>
                         <div className="qualification__calender">
-                            <i className="uil uil-calendar-alt"></i> 2020 - Present
+                            <i className="uil uil-calendar-alt"></i> Feb '21 - Present
                         </div>
                         </div>
 
@@ -45,38 +45,24 @@ const Qualification = () => {
                         </div>
                             <div>
                             <h3 className="qualification__title">ML Research Engineer</h3>
-                            <span className="qualification__subtitle">Ivy - London, U.K</span>
+                            <span className="qualification__subtitle">Ivy - London, U.K - Remote</span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i> 2019 - 2020
+                                <i className="uil uil-calendar-alt"></i> Mar '20 - Feb '21
                             </div>
                         </div>
                     </div>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Software Developer</h3>
-                            <span className="qualification__subtitle">Rakuten - Bengaluru, India</span>
+                            <h3 className="qualification__title">Data Scientist Intern</h3>
+                            <span className="qualification__subtitle">Microsoft - Bengaluru, India</span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i> 2019 
+                                <i className="uil uil-calendar-alt"></i> Jan '20 - Feb '20
                             </div>
                         </div>
                             <div>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
                             </div>
-                    </div>
-                     <div className="qualification__data">
-                        <div></div>
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
-                            <div>
-                            <h3 className="qualification__title">Full Stack Development Intern</h3>
-                            <span className="qualification__subtitle">JP Morgan Chase & Co. - Bengaluru, India</span>
-                            <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i> 2018 - 2019
-                            </div>
-                        </div>
                     </div>
                 </div>
 
