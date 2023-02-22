@@ -53,8 +53,8 @@ const Qualification = () => {
                     </div>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Data Scientist Intern</h3>
-                            <span className="qualification__subtitle">Microsoft - Bengaluru, India</span>
+                            <h3 className="qualification__title">Software Engineering Intern</h3>
+                            <span className="qualification__subtitle">Rakuten - Bengaluru, India</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i> Jan '20 - Feb '20
                             </div>
